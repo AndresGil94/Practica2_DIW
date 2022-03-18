@@ -1,0 +1,179 @@
+@font-face {
+    font-family: poppins;
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+h1 {
+    font-size: 40px !important;
+    font-family: poppins;
+}
+
+h2 {
+    font-size: 35px !important;
+    font-family: poppins;
+}
+
+h3 {
+    font-size: 39px !important;
+    font-family: poppins;
+}
+
+h5 {
+    font-size: 22px !important;
+}
+
+h6 {
+    font-size: 20px !important;
+}
+
+p {
+    font-size: 14px !important;
+    font-family: poppins;
+}
+
+nav {
+    background-color: #ffffff !important;
+}
+
+.nav-btn {
+    background-color: #0A69DE;
+    height: 100%;
+}
+
+.nav-btn:hover {
+    background-color: black;
+    transition: 0s;
+}
+
+.navbar-top-default {
+    top: 20px;
+    height: 100px;
+    width: 100%;
+}
+
+.navbar img {
+    max-width: 80px;
+}
+
+.navbar-collapse {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.banner .imagen {
+    height: 50vh;
+}
+
+.cuadrado {
+    aspect-ratio: 1/1 !important;
+}
+
+.background-banner {
+    background-color: #5335BE;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px !important;
+    border: 1px solid #6C63FF;
+    padding: 12px 34px;
+    font-size: 16px;
+    font-family: poppins;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.hero-btn:hover {
+    border: 1px solid grey;
+    background: transparent;
+    color: #fff;
+    transition: 1s;
+}
+
+#cajas {
+    -webkit-box-shadow: 0 0 18px rgb(127 123 123 / 50%) !important;
+    box-shadow: 0 0 18px rgb(127 123 123 / 50%);
+    border-radius: 5px;
+}
+
+#cajas:hover {
+    background-image: linear-gradient( 135deg, rgb(75, 51, 208) 0%, rgb(98, 58, 162) 100%) !important;
+    color: #fff !important;
+    transition: 0s;
+}
+
+#estadisticas {
+    background-image: linear-gradient( 135deg, rgb(75, 51, 208) 0%, rgb(98, 58, 162) 100%);
+}
+
+.borderContacto {
+    color: black;
+    border: 2px solid #ddd;
+    height: 48px;
+    padding: 8px 4px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    background-color: transparent!important;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom-width: 1px;
+}
+
+.contact-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #4534ce;
+    color: #fff;
+    width: 15%;
+    border-radius: 20px;
+    border: 2px transparent;
+    padding: 12px 34px;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+}
+
+.contact-btn:hover {
+    border: 1px solid #333333;
+    background: #333333;
+    color: #fff;
+    transition: 0.5s;
+}
+
+@media (min-width: 768px) {
+    nav {
+        background-color: #5035C6 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 60px !important;
+        font-family: poppins;
+    }
+    h2 {
+        font-size: 59px !important;
+        font-family: poppins;
+    }
+    h3 {
+        font-size: 39px !important;
+        font-family: poppins;
+    }
+    h5 {
+        font-size: 22px !important;
+    }
+    h6 {
+        font-size: 20px !important;
+    }
+    p {
+        font-size: 18px !important;
+        font-family: poppins;
+    }
+    .banner .imagen {
+        height: auto;
+    }
+}
